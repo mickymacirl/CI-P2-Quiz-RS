@@ -22,12 +22,6 @@ View the live site: *[here](https://pagesurl)*
 
 ![Quiz Question Readme](./assets/readme/placeholder.jpg)
 
-### Feedback Page
-
-### Confirm Page
-
-### 404 Page
-
 ### Features to be Added
 
 ## Design Choices
