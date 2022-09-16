@@ -101,7 +101,7 @@ View the live site: *[here](https://pagesurl)*
 
 ### Version Control
 
-Both *[Visual Studio](https://visualstudio.microsoft.com/)* code editor and *[GitPod](https://gitpod.io/workspaces)* were used to create this site and then pushed to the GitHub remote repository named ‘*[CI-P2-Fruit](https://github.com/mickymacirl/CI-P2-Quiz-RS)*’.
+Both *[Visual Studio](https://visualstudio.microsoft.com/)* code editor and *[GitPod](https://gitpod.io/workspaces)* were used to create this site and then pushed to the GitHub remote repository named ‘*[CI-P2-Quiz-RS](https://github.com/mickymacirl/CI-P2-Quiz-RS)*’.
 
 The following commands were used to push code to the remote repository:
 
