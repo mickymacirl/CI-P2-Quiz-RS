@@ -1,108 +1,238 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Quiz Game
 
-Welcome USER_NAME,
+Quizz Game in Javascript
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Mock Up](./assets/readme/placeholder.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+View the live site: *[here](https://pagesurl)*
 
-## Gitpod Reminders
+## Features of Website
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Header
 
-`python3 -m http.server`
+### NavBar
 
-A blue button should appear to click: _Make Public_,
+### Footer
 
-Another blue button should appear to click: _Open Browser_.
+### Index Page
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Question Page
 
-A blue button should appear to click: _Make Public_,
+- The Game Page contains the main game board, header, and footer.
 
-Another blue button should appear to click: _Open Browser_.
+![Quiz Question Readme](./assets/readme/placeholder.jpg)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Feedback Page
 
-To log into the Heroku toolbelt CLI:
+### Confirm Page
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### 404 Page
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Features to be Added
 
-------
+## Design Choices
 
-## Release History
+### Question ICONS
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Colors
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Fonts
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Logo
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Favicon
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Wireframes
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## User Goals
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- Visually attractive game website.
+- It is easy to navigate the website.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## User Stories
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Site Owner Goals
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Technology
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### HTML
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- The structure of this website uses *[HTML](https://en.wikipedia.org/wiki/HTML)*.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### CSS
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- The website was styled by connecting a custom *[CSS](https://en.wikipedia.org/wiki/CSS)* to an external file.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### JavaScript
 
-------
+- This quiz's questions uses *[JavaScript](https://en.wikipedia.org/wiki/JavaScript)* to an external file.
 
-## FAQ about the uptime script
+### Visual Studio Code
 
-**Why have you added this script?**
+- The website was developed using *[Visual Studio](https://visualstudio.microsoft.com/)* Code IDE.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### GitHub
 
-**How will this affect me?**
+- Source code is hosted on *[GitHub](https://github.com/)* and deployed using *[GitPages](https://pages.github.com/)*.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Adobe Photoshop
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- Used *[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)* for overall design and logo images.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Adobe Dreamweaver
 
-**So….?**
+- The website was tested and designed using *[Adobe Dreamweaver](https://www.adobe.com/products/dreamweaver.html)*.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Google Fonts
 
-**Can I opt out?**
+- This website uses *[Google Fonts](https://fonts.google.com/)*.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### balsamiq
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- Created wireframes for this website using *[balsamiq](https://balsamiq.com/wireframes/desktop/#/)*.
 
-**Anything more?**
+## Testing
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Deployment
 
----
+### Template
 
-Happy coding!
+- A repository called 'CI-P2-Quiz-RS' was created using the *[Code Institute GitPod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)*.
+
+### Version Control
+
+Both *[Visual Studio](https://visualstudio.microsoft.com/)* code editor and *[GitPod](https://gitpod.io/workspaces)* were used to create this site and then pushed to the GitHub remote repository named ‘*[CI-P2-Fruit](https://github.com/mickymacirl/CI-P2-Quiz-RS)*’.
+
+The following commands were used to push code to the remote repository:
+
+1. *git add .* was used to stage all files for commit changes.
+
+2. *git commit -m “commit message”* was used to add the changes to the local repository for upload during a push.
+
+3. *git push* was used to push all local changes to the remote repository on GitHub.
+
+### Deployment to GitHub Pages
+
+The site was deployed to GitHub Pages.
+
+Below are the steps required:
+
+1. In **GitHub**, navigate to your username.github.io repository and click Settings.
+2. Within Settings, navigate to the Source section within the **GitHub Pages** section. From the dropdown menu, select the master branch and then click Save.
+
+### Deploying New Changes
+
+Once **GitHub Pages** is set up, normal **GithHub** flow updates the live page.
+
+View the live site: *[here](https://github.com/mickymacirl/CI-P2-Quiz-RS)*
+
+### Forking the Repository
+
+Forking creates a copy of the repository to view and/or make changes without affecting the original.
+
+Below are the steps required:
+
+1. In **GitHub**, access the specific **GitHub** Repository - *[Quiz Game](https://github.com/mickymacirl/CI-P2-Quiz-RS)*
+2. You will find and click the **"Fork"** button on the top right of the repository page underneath the user icon.
+3. You will have successfully created a copy of the original repository within the logged-in **GitHub** account.
+
+### Clone the 'CI-P2 Fruit Game' GitHub Code Repository locally
+
+1. Go to the page of the repository that you want to clone, the **CI-P2-Quiz-RS GitHub** site: *[here](https://github.com/mickymacirl/CI-P2-Quiz-RS)*
+2. Click on the **“Code”** menu and copy the URL.
+3. Use the git clone command along with the copied URL.
+4. git clone <https://github.com/USERNAME/REPOSITORY>
+
+![Clone Repository](/assets/readme/placeholder.jpg)
+
+## Credits
+
+### Mentor Support
+
+- Mentor support from *[Daisy McGirr](https://github.com/Daisy-McG)*.
+
+### Markdown Language
+
+- Used syntax from *[Markdown Guide](https://www.markdownguide.org/basic-syntax/)* for reference.
+
+### Markdown TOC Generator
+
+- Used Ecotrust Canada's *[Markdown TOC Generator](https://ecotrust-canada.github.io/markdown-toc/)* to build Readme TOC.
+
+### Meta Tags
+
+- Used SEO Timers *[Meta Tag Generator](https://www.seoptimer.com/meta-tag-generator)* to generate HTML meta-tags.
+
+### W3 Schools Media Queries
+
+- Used W3 Schools *[CSS Media Queries - More Examples](https://www.w3schools.com/Css/css3_mediaqueries_ex.asp)* to code media queries.
+
+### Code Institute Form Dump
+
+- Used *[Code Institute Form Dump](https://formdump.codeinstitute.net/)* to validate contact form.
+
+### JavaScript Basics
+
+- JavaScript Basics from *[JsChallenger.com](https://www.jschallenger.com/javascript-fundamentals/javascript-basics)*.
+
+### Favicon Generator
+
+- Used *[Favicon & App Icon Generator](https://www.favicon-generator.org/)* to generate the favicon and *[W3 Schools HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)* for the HTML.
+
+### W3 School Responsive Web Design - Images
+
+- Used *[W3 School Responsive Web Design - Images](https://www.w3schools.com/css/css_rwd_images.asp)* to resize logo image.
+
+### Mozilla.org Reference
+
+- Reference from *[Mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)*.
+
+### Adobe Fonts
+
+- Used *[Muli from Adobe Fonts](https://fonts.adobe.com/fonts/muli)* for screenshots for readme.
+
+### Unicorn Revealer
+
+- Used *[Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)* to troubleshoot layout and responsiveness.
+
+### Chrome Dev Tools
+
+- Used *[Chrome Dev tools](https://developers.google.com/web/tools)* to debug code and troubleshoot layout and responsiveness.
+
+### Media Genius
+
+- Used *[Media Genius](<https://responsivedesignchecker.com/>)* responsiveness website to troubleshoot layout and responsiveness.
+
+### markdownlint
+
+- Used *[MarkdownLint](https://open-vsx.org/extension/DavidAnson/vscode-markdownlint)* extension in Visual Studio to troubleshoot markdown errors in readme's.
+
+### GitLens 12
+
+- Used *[GitLens 12](https://open-vsx.org/extension/eamodio/gitlens)* extension in Visual Studio to help overall Git management.
+
+### Grammarly Office Plugin
+
+- Used *[Grammarly Office Plugin](https://www.grammarly.com/office-addin)* on spelling, grammar, punctuation, clarity, and writing style in the ReadMe's.
+
+### Git and GitHub
+
+- Used *[W3C Git Tutorial](https://www.w3schools.com/git/default.asp?remote=github)* for reference.
+
+- Used *[GitHub Git-Guides](https://github.com/git-guides)* for reference.
+
+### GitPod
+
+- Used *[GitPod Help Page](https://www.gitpod.io/support)* for reference.
+
+### Multi-Device Website Mockup Generator
+
+- Used *[Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php)* to create multi-device mockup.
+
+### Version Control Reference
+
+- Used Our Coding Club *[GitHub.io](https://ourcodingclub.github.io/tutorials/git/)* How To's for reference.
+
+## Content
+
+- Logo created using *[Canva](https://www.canva.com/)* and *[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)*.
