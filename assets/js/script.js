@@ -168,3 +168,13 @@ document.addEventListener("DOMContentLoaded", () => {
       sessionStorage.getItem("userName") || "user"
     }!`;
   });
+
+const previousQuestion = listQuestions.length - 1; // Previous Player Question
+let currentQuestion = 0; // Question player on
+let count = 0; // set count
+let TIMER; // declare timer
+let score = 0; // Set score
+const QUESTION_TIME = 30; // 30 seconds
+const GAUGE_WIDTH = 50; // 50px width
+const GAUGE_UNIT = GAUGE_WIDTH / QUESTION_TIME; // scorePercentage
+let progressQuesIndex = 0; // declare progressQuesIndex
