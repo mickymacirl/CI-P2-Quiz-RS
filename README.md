@@ -6,7 +6,7 @@ The quiz consists of ten questions designed to assess an individual's knowledge 
 
 ![Mock Up](./assets/readme/placeholder.jpg)
 
-View the live site: *[here](https://pagesurl)*
+View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ## Features of Website
 
@@ -128,7 +128,7 @@ Below are the steps required:
 
 Once **GitHub Pages** is set up, normal **GithHub** flow updates the live page.
 
-View the live site: *[here](https://github.com/mickymacirl/CI-P2-Quiz-RS)*
+View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### Forking the Repository
 
