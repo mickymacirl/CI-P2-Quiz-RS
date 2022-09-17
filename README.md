@@ -22,13 +22,16 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 - The navbar of the website is responsive on all devices, which changes positon based on the width of the browser on a device.
 
-![Header Readme](./assets/readme/headerrm.jpg)
+![Navbar Readme](./assets/readme/navrm.jpg)
+
+![Navbar Readme 620](./assets/readme/nav620.jpg)
 
 ### Footer
 
 - The footer of the website is responsive on all devices, which changes postion based on the width of the browser on a device.
 
 ![Header Readme](./assets/readme/headerrm.jpg)
+
 ### Index Page
 
 - The index page displays the quiz's landing page and has a text field to accept a username and a submit button.
