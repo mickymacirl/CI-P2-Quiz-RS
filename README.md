@@ -205,10 +205,6 @@ Below are the steps required:
 
 - Reference from *[Mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)*.
 
-### Adobe Fonts
-
-- Used *[Muli from Adobe Fonts](https://fonts.adobe.com/fonts/muli)* for screenshots for readme.
-
 ### Unicorn Revealer
 
 - Used *[Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)* to troubleshoot layout and responsiveness.
