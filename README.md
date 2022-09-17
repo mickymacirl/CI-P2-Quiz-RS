@@ -12,6 +12,10 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### Header
 
+- The header of the website is responsive on all devices, which remaining at the top of the page consistantly.
+
+![Header Readme](./assets/readme/headerrm.jpg)
+
 ### NavBar
 
 ### Footer
