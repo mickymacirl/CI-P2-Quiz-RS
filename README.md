@@ -30,7 +30,9 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 - The footer of the website is responsive on all devices, which changes postion based on the width of the browser on a device.
 
-![Header Readme](./assets/readme/headerrm.jpg)
+![Footer Readme 320](./assets/readme/footer320rm.jpg.jpg)
+
+![Footer Readme](./assets/readme/footerrm.jpg)
 
 ### Index Page
 
