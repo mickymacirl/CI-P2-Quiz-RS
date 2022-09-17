@@ -217,3 +217,58 @@ let showProgress = () => {
     progressQuesIndex++;
   }
 };
+
+/**
+ * showCounter: If the count is less than or equal to the question time, then display the count, change the width of
+ * the gauge, and increment the count. Otherwise, reset the count, change the progress color to red,
+ * and if the current question is less than the previous question, increment the current question and
+ * show the question. Otherwise, end the quiz and show the score.
+ */
+ let showCounter = () => {
+    if (count <= QUESTION_TIME) {
+      counter.innerHTML = count;
+      questionTimer.style.width = count * GAUGE_UNIT + "px";
+      count++;
+    } else {
+      count = 0;
+      // incorrect so set color in counter to red
+      quessIncorrect();
+      if (currentQuestion < previousQuestion) {
+        currentQuestion++;
+        showQuestion();
+      } else {
+        // Finish quiz and show the score
+        clearInterval(TIMER);
+        showScore();
+      }
+    }
+  };
+  
+  /**
+   * checkAnswer: If the answer is correct, the score is incremented and the progress bar is colored green. If the
+   * answer is wrong, the progress bar is colored red. If the current question is less than the previous
+   * question, the current question is incremented and the next question is shown. If the current
+   * question is greater than the previous question, the quiz is ended and the score is shown.
+   * @param answer - the answer the user selected.
+   */
+  function checkAnswer(answer) {
+    if (answer == listQuestions[currentQuestion].correctOption) {
+      // answer is correct
+      score++;
+      // change progress color to green
+      document.getElementById(currentQuestion).style.backgroundColor = "#00FF00";
+    } else {
+      // answer is wrong
+      // change progress color to red
+      document.getElementById(currentQuestion).style.backgroundColor = "#FF0000";
+    }
+    count = 0;
+    if (currentQuestion < previousQuestion) {
+      currentQuestion++;
+      showQuestion();
+    } else {
+      // end the quiz and show the score
+      clearInterval(TIMER);
+      showScore();
+    }
+  }
