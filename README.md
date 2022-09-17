@@ -195,6 +195,10 @@ Below are the steps required:
 
 - Used *[Chrome Dev tools](https://developers.google.com/web/tools)* to debug code and troubleshoot layout and responsiveness.
 
+### W3School Responsive
+
+- Used *[W3School Responsive](https://www.w3schools.com/html/html_responsive.asp)* for layout and responsiveness.
+
 ### Media Genius
 
 - Used *[Media Genius](<https://responsivedesignchecker.com/>)* responsiveness website to troubleshoot layout and responsiveness.
