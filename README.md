@@ -16,12 +16,18 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ![Header Readme](./assets/readme/headerrm.jpg)
 
+![Header 620 Readme](./assets/readme/header620rm.jpg)
+
 ### NavBar
+
+![Header Readme](./assets/readme/headerrm.jpg)
 
 ### Footer
 
+![Header Readme](./assets/readme/headerrm.jpg)
 ### Index Page
 
+![Header Readme](./assets/readme/headerrm.jpg)
 ### Question Page
 
 - The Game Page contains the main game board, header, and footer.
