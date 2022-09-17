@@ -132,7 +132,7 @@ Below are the steps required:
 2. You will find and click the **"Fork"** button on the top right of the repository page underneath the user icon.
 3. You will have successfully created a copy of the original repository within the logged-in **GitHub** account.
 
-### Clone the 'CI-P2 Fruit Game' GitHub Code Repository locally
+### Clone the 'CI-P2 Quiz-RS' GitHub Code Repository locally
 
 1. Go to the page of the repository that you want to clone, the **CI-P2-Quiz-RS GitHub** site: *[here](https://github.com/mickymacirl/CI-P2-Quiz-RS)*
 2. Click on the **“Code”** menu and copy the URL.
