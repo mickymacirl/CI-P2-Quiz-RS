@@ -178,3 +178,17 @@ const QUESTION_TIME = 30; // 30 seconds
 const GAUGE_WIDTH = 50; // 50px width
 const GAUGE_UNIT = GAUGE_WIDTH / QUESTION_TIME; // scorePercentage
 let progressQuesIndex = 0; // declare progressQuesIndex
+
+/**
+ * showQuestion: Takes the current question from the listQuestions array and displays it on the page within <p> element.
+ */
+ let showQuestion = () => {
+    let ques = listQuestions[currentQuestion];
+    getQuestion.innerHTML = `<p>${ques.question}</p>`;
+    getAnswerImage.innerHTML = `<img src="${ques.imgSrc}">`;
+    getOptionOne.innerHTML = ques.options.optionOne;
+    getOptionTwo.innerHTML = ques.options.optionTwo;
+    getOptionThree.innerHTML = ques.options.optionThree;
+    getOptionFour.innerHTML = ques.options.optionFour;
+  };
+  
