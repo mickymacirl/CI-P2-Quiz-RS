@@ -2,7 +2,7 @@
 
 ISACA's Certified Information Security Manager (CISM) certification is for those who want to advance from team player to manager and have technical expertise and experience in IS/IT security and control.
 
-The quiz consists of ten questions designed to assess an individual's knowledge of the CISM certification. 
+The quiz consists of ten questions designed to assess an individual's knowledge of the CISM certification.
 
 ![Mock Up](./assets/readme/placeholder.jpg)
 
