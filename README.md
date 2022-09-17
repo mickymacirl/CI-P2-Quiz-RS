@@ -107,10 +107,9 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ![HTML Results](./assets/readme/htmlvalrm.jpg)
 
- Used *[W3C HTML Validator](https://jigsaw.w3.org/css-validator)* to validate the Javascript on this stie, with one error saying that checkAnswer is unused. checkAnswer is using the in quiz.html file to check the quiz players answer so is not used with the javascript file.
+ Used *[Javascript Validator](https://jshint.com/)* to validate the Javascript on this stie, with one error saying that checkAnswer is unused. checkAnswer is using the in quiz.html file to check the quiz players answer so is not used with the javascript file.
 
 ![Javascript Results](./assets/readme/jsvalrm.jpg)
-
 
 ## Deployment
 
