@@ -33,12 +33,13 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 - The index page displays the quiz's landing page and has a text field to accept a username and a submit button.
 
-![Header Readme](./assets/readme/headerrm.jpg)
+![Index Page Readme](./assets/readme/indexrm.jpg)
+
+![Index Page Readme 620](./assets/readme/index620rm.jpg)
+
 ### Question Page
 
 - The Game Page contains the main game board, header, and footer and the about section.
-
-
 
 ![Quiz Question Readme](./assets/readme/placeholder.jpg)
 
