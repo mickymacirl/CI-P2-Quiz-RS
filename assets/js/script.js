@@ -150,3 +150,21 @@ let listQuestions = [
       correctOption: 2,
     },
   ];
+
+  /* This is a function that is called when the DOM is loaded. It is listening for the submit event on
+the form. When the form is submitted, it gets the value of the textbox and stores it in the session
+storage. */
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector("#myForm").addEventListener("submit", () => {
+      const inputValue = document.querySelector("#tbName").value;
+      sessionStorage.setItem("userName", inputValue);
+    });
+  });
+  
+  /* Listening for the DOM to load and then sets the text content of the welcome
+  element to the user name. If there is no user name, it will display user. */
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector("#welcome").textContent = `Hello! ${
+      sessionStorage.getItem("userName") || "user"
+    }!`;
+  });
