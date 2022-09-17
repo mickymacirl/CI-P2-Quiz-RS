@@ -28,6 +28,25 @@ a:hover {
   width: 60%;
   padding: 0 20px;
 }
+
+.right {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 5px;
+    text-align: center;
+  }
+      
+  .text {
+      display: inline-block;
+      background-color: #e5e5e5;
+      width: 100%;
+      margin-top: 7px;
+      margin-bottom: 7px;
+      font-size: 0.77rem;
+      color: darkgray;
+  }
 	
 h1 {
     display: block;
@@ -77,25 +96,6 @@ h2 {
     border-radius: 5%;
     margin-left : 1px;
     margin-right : 1px;
-}
-
-.right {
-  background-color: #e5e5e5;
-  float: left;
-  width: 20%;
-  padding: 15px;
-  margin-top: 5px;
-  text-align: center;
-}
-	
-.text {
-    display: inline-block;
-    background-color: #e5e5e5;
-    width: 100%;
-    margin-top: 7px;
-    margin-bottom: 7px;
-	font-size: 0.77rem;
-	color: darkgray;
 }
 
 #choices{
