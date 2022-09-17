@@ -1,85 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CISM Quiz 10 Questions</title>
-    <meta name="title" content="CISM Quiz 10 Questions">
-    <meta name="description" content="10 CISM Practice Questions">
-    <meta name="keywords" content="cism, 10, practice, certification">
-    <meta name="language" content="English">
-    <meta name="author" content="Michael McCarthy">
-
-    <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CISM Quiz 10 Questions</title>
+        <meta name="title" content="CISM Quiz 10 Questions">
+        <meta name="description" content="10 CISM Practice Questions">
+        <meta name="keywords" content="cism, 10, practice, certification">
+        <meta name="language" content="English">
+        <meta name="author" content="Michael McCarthy">
+            
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
 
 <body style="font-family:Verdana;color:#aaaaaa;">
-    <header>
-        <div style="background-color:white;padding:15px;text-align:center;">
-            <h1><img src="./assets/images/icon.jpg" width="63" height="62" alt="CISM Logo" /><br>
-                Certified Information Security Manager Quiz Site</h1>
-        </div>
-    </header>
-    <nav>
-        <div style="overflow:auto">
-            <div class="menu">
-                <a href="index.html">Home</a>
-                <a href="https://www.isaca.org/credentialing/cism">CISM Site</a>
+
+<div style="background-color:white;padding:15px;text-align:center;">
+  <h1><img src="./assets/images/icon.jpg" width="63" height="62" alt="CISM Logo"/><br>
+Certified Information Security Manager Quiz Site</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="index.html">Home</a>
+    <a href="https://www.isaca.org/credentialing/cism">CISM Site</a>
+  </div>
+
+  <div class="main">
+  <div id="welcome" style="margin-left: 10px;"></div>
+
+    </h1>
+    <div class="text"><strong>CISM</strong> (Certified Information Security Manager) is “an advanced certification which indicates that an individual possesses the knowledge and experience required to develop and manage an enterprise information security program.” 
+        This certification is offered by ISACA, a nonprofit, independent association. CISM is accredited by ANSI under ISO/IEC 17024:2003.</div>
+		<div class="text">
+	    You have <strong>10</strong> random questions on the Certified Information Security manager exam!</div>
+	    <div class="text">You have <strong>30</strong> seconds to complete each question.</div>
+	    <div class="text">Click each answer number to select that answer.</div>
+	  <div class="text">Your percentage score will display at the bottom of the screen.</div>
+        <div id="container">
+            <div id="start">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="getQuestion"></div>
+            <div id="answerImage"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer(1)"></div>
+                <div class="choice" id="B" onclick="checkAnswer(2)"></div>
+                <div class="choice" id="C" onclick="checkAnswer(3)"></div>
+                <div class="choice" id="D" onclick="checkAnswer(4)"></div>
             </div>
-    </nav>
-    <main>
-        <div class="main">
-            <div id="welcome" style="margin-left: 10px;"></div>
-
-            </h1>
-            <div class="text"><strong>CISM</strong> (Certified Information Security Manager) is “an advanced
-                certification which indicates that an individual possesses
-                the knowledge and experience required to develop and manage an enterprise information security program.”
-                This certification is offered by ISACA, a nonprofit, independent association. CISM is accredited by ANSI
-                under ISO/IEC 17024:2003.</div>
-            <div class="text">
-                You have <strong>10</strong> random questions on the Certified Information Security manager exam!</div>
-            <div class="text">You have <strong>30</strong> seconds to complete each question.</div>
-            <div class="text">Click each answer number to select that answer.</div>
-            <div class="text">Your percentage score will display at the bottom of the screen.</div>
-            <div id="container">
-                <div id="start">Start Quiz!</div>
-                <div id="quiz" style="display: none">
-                    <div id="getQuestion"></div>
-                    <div id="answerImage"></div>
-                    <div id="choices">
-                        <div class="choice" id="A" onclick="checkAnswer(1)"></div>
-                        <div class="choice" id="B" onclick="checkAnswer(2)"></div>
-                        <div class="choice" id="C" onclick="checkAnswer(3)"></div>
-                        <div class="choice" id="D" onclick="checkAnswer(4)"></div>
-                    </div>
-                    <div id="timer">
-                        Timer
-                        <div id="counter"></div>
-                        <div id="questionTimerBar"></div>
-                        <div id="questionTimer"></div>
-                    </div>
-                    <div id="progress"></div>
-                </div>
-                <div id="scoreContainer" style="display: none"></div>
+            <div id="timer">
+                Timer
+                <div id="counter"></div>
+                <div id="questionTimerBar"></div>
+                <div id="questionTimer"></div>
             </div>
+            <div id="progress"></div>
         </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+  </div>
 
-        <div class="right">
-            <h2>About</h2>
-            <p class="text">This website is for people who want to try their hand at Information Security Management.
-            </p>
-        </div>
-        </div>
+  <div class="right">
+    <h2>About</h2>
+    <p class="text">This website is for people who want to try their hand at Information Security Management.</p>
+  </div>
+</div>
 
-    </main>
-    <footer></footer>
-    <div style="background-color:seagreen;color:black;text-align:center;padding:10px;margin-top:7px;">© All logos and
-        content copyright of&nbsp;isaca.org</div>
-    <script src="./assets/js/script.js"></script>
-    </footer>
+<div style="background-color:seagreen;color:black;text-align:center;padding:10px;margin-top:7px;">© All logos and content copyright of&nbsp;isaca.org</div>
+	<script src="./assets/js/script.js"></script>
+
 </body>
-
 </html>
