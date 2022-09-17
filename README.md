@@ -1,6 +1,8 @@
-# Quiz Game
+# CISM Certification Quiz Game
 
-Quizz Game in Javascript
+ISACA's Certified Information Security Manager (CISM) certification is for those who want to advance from team player to manager and have technical expertise and experience in IS/IT security and control.
+
+The quiz consists of ten questions designed to assess an individual's knowledge of the CISM certification. 
 
 ![Mock Up](./assets/readme/placeholder.jpg)
 
@@ -161,10 +163,6 @@ Below are the steps required:
 
 - Used W3 Schools *[CSS Media Queries - More Examples](https://www.w3schools.com/Css/css3_mediaqueries_ex.asp)* to code media queries.
 
-### Code Institute Form Dump
-
-- Used *[Code Institute Form Dump](https://formdump.codeinstitute.net/)* to validate contact form.
-
 ### JavaScript Basics
 
 - JavaScript Basics from *[JsChallenger.com](https://www.jschallenger.com/javascript-fundamentals/javascript-basics)*.
@@ -172,10 +170,6 @@ Below are the steps required:
 ### Favicon Generator
 
 - Used *[Favicon & App Icon Generator](https://www.favicon-generator.org/)* to generate the favicon and *[W3 Schools HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)* for the HTML.
-
-### W3 School Responsive Web Design - Images
-
-- Used *[W3 School Responsive Web Design - Images](https://www.w3schools.com/css/css_rwd_images.asp)* to resize logo image.
 
 ### Mozilla.org Reference
 
