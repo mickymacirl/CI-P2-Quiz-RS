@@ -229,6 +229,10 @@ Below are the steps required:
 
 - Used *[MarkdownLint](https://open-vsx.org/extension/DavidAnson/vscode-markdownlint)* extension in Visual Studio to troubleshoot markdown errors in readme's.
 
+### Color Picker
+
+- Used *[Color Picker](https://imagecolorpicker.com/en)* to pick colors from CISM Logo.
+
 ### GitLens 12
 
 - Used *[GitLens 12](https://open-vsx.org/extension/eamodio/gitlens)* extension in Visual Studio to help overall Git management.
@@ -257,4 +261,4 @@ Below are the steps required:
 
 ## Content
 
-- Logo created using *[Canva](https://www.canva.com/)* and *[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)*.
+- Logo from *[ISACA.org](https://www.isaca.org/credentialing/cism)* website and resized using *[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)*.
