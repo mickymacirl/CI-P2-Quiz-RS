@@ -101,7 +101,7 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 - Used *[W3C CSS Validator](https://jigsaw.w3.org/css-validator)* to validate the CSS on this stie, no errors are found.
 
-![HTML Results](./assets/readme/csvalrm.jpg)
+![CSS Results](./assets/readme/cssvalrm.jpg)
 
  Used *[W3C HTML Validator](https://jigsaw.w3.org/css-validator)* to validate the HTML on this stie, no errors are found.
 
