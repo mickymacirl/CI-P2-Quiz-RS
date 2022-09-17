@@ -15,7 +15,7 @@
     display: block;
     width: 100%;
     font-size: 0.67rem;
-    color: grey;
+    color: seagreen;
 }
 
 a:hover {
@@ -29,7 +29,7 @@ a:hover {
 }
 
 .right {
-    background-color: #e5e5e5;
+    background-color: seagreen;
     float: left;
     width: 20%;
     padding: 15px;
@@ -44,7 +44,7 @@ a:hover {
     margin-top: 7px;
     margin-bottom: 7px;
     font-size: 0.77rem;
-    color: darkgray;
+    color: seagreen;
     padding: 5px;
 }
 
