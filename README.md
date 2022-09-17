@@ -24,7 +24,7 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ![Navbar Readme](./assets/readme/navrm.jpg)
 
-![Navbar Readme 620](./assets/readme/nav620.jpg)
+![Navbar Readme 620](./assets/readme/nav620rm.jpg)
 
 ### Footer
 
