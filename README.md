@@ -97,6 +97,12 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ## Testing
 
+### Validator Testing
+
+- Used *[W3C CSS Validator](https://jigsaw.w3.org/css-validator)*.
+
+![CSS Results](./assets/readme/csvalrm.jpg)
+
 ## Deployment
 
 ### Template
