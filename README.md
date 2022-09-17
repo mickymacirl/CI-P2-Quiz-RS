@@ -163,6 +163,14 @@ Below are the steps required:
 
 - Used CISM Questions from *[Certification-Questions.com](https://www.certification-questions.com/pdf-download/isaca/cism-pdf.pdf)* to build the 10 questions.
 
+### Localstorage Username
+
+- Used Stackoverflow for *[Stackoverflow Username](https://stackoverflow.com/questions/58750774/ask-user-enter-name-with-javascript-and-html)* username capture reference.
+
+### Quiz Outline
+
+- Used Stackoverflow for *[Stackoverflow Quiz Game](https://stackoverflow.com/questions/58894468/i-am-making-quiz-web-application-using-javascript-for-all-functions-posting-my-q)* javascript reference.
+
 ### JavaScript Basics
 
 - JavaScript Basics from *[JsChallenger.com](https://www.jschallenger.com/javascript-fundamentals/javascript-basics)*.
