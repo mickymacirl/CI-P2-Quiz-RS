@@ -1,25 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CISM Quiz 10 Questions</title>
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-    <header>
-        header
-    </header>
-    <nav>
-        <a href="/links/">Links</a> |
-    </nav> 
-    <main>
-        Main
-    </main>
-    <script src="./assets/js/script.js"></script>
-    <footer>
-        Footer
-    </footer>
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+<div style="background-color:white;padding:15px;text-align:center;">
+  <h1><img src="icon.jpg" width="63" height="62" alt="CISM Logo"/><br>
+Certified Information Security Manager</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="index1.html">Home</a>
+    <a href="#">CISM Site</a>
+  </div>
+
+  <div class="main">
+  <h1 id="welcome" style="margin-left: 10px;">
+
+    </h1>
+		<div class="text">
+	    You have <strong>10</strong> random questions on the Certified Information Security manager exam!</div>
+	    <div class="text">You have <strong>30</strong> seconds to complete each question.</div>
+	    <div class="text">Click each answer number to select that answer.</div>
+	  <div class="text">Your percentage score will display at the bottom of the screen.</div>
+        <div id="container">
+            <div id="start">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="getQuestion"></div>
+            <div id="answerImage"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer(1)"></div>
+                <div class="choice" id="B" onclick="checkAnswer(2)"></div>
+                <div class="choice" id="C" onclick="checkAnswer(3)"></div>
+                <div class="choice" id="D" onclick="checkAnswer(4)"></div>
+            </div>
+            <div id="timer">
+                Timer
+                <div id="counter"></div>
+                <div id="questionTimerBar"></div>
+                <div id="questionTimer"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+  </div>
+
+  <div class="right">
+    <h2>About</h2>
+    <p>About Text</p>
+  </div>
+</div>
+
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© All logos and content copyright of&nbsp;isaca.org </div>
+	<script src="/assets/js/script.js"></script>
+
 </body>
 </html>

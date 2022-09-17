@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 * {
   box-sizing: border-box;
 }
@@ -137,8 +139,7 @@ h2 {
     margin: 0px;
     padding: 20px;
     /* width: 80vw;
-    height: 35vh; */
-    background-color: grey;    
+    height: 35vh; */  
 }
 #scoreContainer img{
     justify-content: space-around;
@@ -159,4 +160,3 @@ h2 {
     width: 100%;
   }
 }
-
