@@ -192,3 +192,28 @@ let progressQuesIndex = 0; // declare progressQuesIndex
     getOptionFour.innerHTML = ques.options.optionFour;
   };
   
+  start.addEventListener("click", startQuiz);
+
+/**
+ * startQuiz: When the start button is clicked, hide the start button, show the first question, show the quiz,
+ * show the progress, show the counter, and start the timer.
+ */
+function startQuiz() {
+  start.style.display = "none";
+  showQuestion();
+  quiz.style.display = "block";
+  showProgress();
+  showCounter();
+  TIMER = setInterval(showCounter, 1000); // 1000ms = 1s
+}
+
+/**
+ * showProgress: While the progressQuesIndex is less than or equal to the previousQuestion, add a <div> element with a class of
+ * prog and an id of the progressQuesIndex to the progress <div> element.
+ */
+let showProgress = () => {
+  while (progressQuesIndex <= previousQuestion) {
+    progress.innerHTML += `<div class='progress' id='${progressQuesIndex}' + "></div>`;
+    progressQuesIndex++;
+  }
+};
