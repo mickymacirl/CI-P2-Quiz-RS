@@ -272,3 +272,33 @@ let showProgress = () => {
       showScore();
     }
   }
+
+  /**
+ * showScore: This displays the percentage of the score.
+ */
+let showScore = () => {
+    diplayScore.style.display = "block";
+  
+  
+    /* Calculating the percentage of the score. */
+    const scorePercentage = (score / listQuestions.length) * 100;
+  
+    /* Setting the img variable to a different image based on the score percentage. */
+    let img;
+    if (scorePercentage >= 80) {
+      img = "img/5.png";
+    } else if (scorePercentage >= 60 && scorePercentage < 80) {
+      img = "img/4.png";
+    } else if (scorePercentage >= 40 && scorePercentage < 60) {
+      img = "img/3.png";
+    } else if (scorePercentage >= 20 && scorePercentage < 40) {
+      img = "img/2.png";
+    } else {
+      img = "img/1.png";
+    }
+    // displayScore with img based on scorePercentage.
+    diplayScore.innerHTML = `<img src='${img}'>`;
+    diplayScore.innerHTML += `<br>% was: `;
+    diplayScore.innerHTML += `<p>${scorePercentage}</p>`;
+  };
+  
