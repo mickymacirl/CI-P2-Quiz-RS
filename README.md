@@ -40,6 +40,14 @@ View the live site: *[here](https://pagesurl)*
 
 ### Wireframes
 
+![Index320 Wireframe](./assets/readme/indexwfrm.jpg)
+
+![Index700 Wireframe](./assets/readme/indexwfrm700.jpg)
+
+![Quiz320 Wireframe](./assets/readme/quizwfrm.jpg)
+
+![Quiz700 Wireframe](./assets/readme/quizwfrm700.jpg)
+
 ## User Goals
 
 - Visually attractive game website.
