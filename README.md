@@ -159,9 +159,9 @@ Below are the steps required:
 
 - Used SEO Timers *[Meta Tag Generator](https://www.seoptimer.com/meta-tag-generator)* to generate HTML meta-tags.
 
-### W3 Schools Media Queries
+### CISM Questions
 
-- Used W3 Schools *[CSS Media Queries - More Examples](https://www.w3schools.com/Css/css3_mediaqueries_ex.asp)* to code media queries.
+- Used CISM Questions from *[Certification-Questions.com](https://www.certification-questions.com/pdf-download/isaca/cism-pdf.pdf)* to build the 10 questions.
 
 ### JavaScript Basics
 
