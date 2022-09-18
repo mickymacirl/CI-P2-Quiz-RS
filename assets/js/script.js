@@ -286,15 +286,15 @@ let showScore = () => {
     /* Setting the img variable to a different image based on the score percentage. */
     let img;
     if (scorePercentage >= 80) {
-      img = "img/5.png";
+      img = "./assets/images/icon.jpg";
     } else if (scorePercentage >= 60 && scorePercentage < 80) {
-      img = "img/4.png";
+      img = "./assets/images/icon.jpg";
     } else if (scorePercentage >= 40 && scorePercentage < 60) {
-      img = "img/3.png";
+      img = "./assets/images/icon.jpg";
     } else if (scorePercentage >= 20 && scorePercentage < 40) {
-      img = "img/2.png";
+      img = "./assets/images/icon.jpg";
     } else {
-      img = "img/1.png";
+      img = "./assets/images/icon.jpg";
     }
     // displayScore with img based on scorePercentage.
     diplayScore.innerHTML = `<img src='${img}'>`;
