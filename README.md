@@ -133,10 +133,6 @@ As a Site Administrator, I want to:
 
 - The website was tested and designed using *[Adobe Dreamweaver](https://www.adobe.com/products/dreamweaver.html)*.
 
-### Google Fonts
-
-- This website uses *[Google Fonts](https://fonts.google.com/)*.
-
 ### balsamiq
 
 - Created wireframes for this website using *[balsamiq](https://balsamiq.com/wireframes/desktop/#/)*.
@@ -176,6 +172,14 @@ As a Site Administrator, I want to:
 - Used *[WAVE Validator](https://wave.webaim.org/)* to test the pages. The index page is showing an unlabeled sumbit button error, was not able to fix this due to lack of time.
 
 ![Wave Results](./assets/readme/waverm.jpg)
+
+### Wave Testing
+
+- Used *[lighthouse](https://wave.webaim.org/)* to test the pages. All results are within acceptable ranges/.
+
+![Light House Results Mobile](./assets/readme/lhmobilerm.jpg)
+
+![Light House Results Desktop](./assets/readme/lhdeskerm.jpg)
 
 ## Deployment
 
