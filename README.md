@@ -84,7 +84,7 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ## User Goals
 
-- Visually attractive game website.
+- Visually attractive website.
 - It is easy to navigate the website.
 
 ## User Stories
@@ -144,6 +144,12 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
  Used *[Javascript Validator](https://jshint.com/)* to validate the Javascript on this stie, with one error saying that checkAnswer is unused. checkAnswer is used in the quiz.html file to check the quiz players answer so is not used within the javascript file.
 
 ![Javascript Results](./assets/readme/jsvalrm.jpg)
+
+### Wave Testing
+
+- Used Wave to test the pages. The index page is showing an unlabeled sumbit button error, was not able to fix this due to lack of time.
+
+![Wave Results](./assets/readme/waverm.jpg)
 
 ## Deployment
 
