@@ -66,6 +66,8 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### Fonts
 
+- The fonts used are the follow: Verdana, Geneva, Tahoma, sans-serif, linked from CSS file.
+
 ### Logo
 
 - Logo is a modifed logo from CISM webpage.
