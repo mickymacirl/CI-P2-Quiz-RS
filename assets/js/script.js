@@ -32,7 +32,7 @@ let listQuestions = [
       id: 2,
       question:
         "Question 2. Senior management commitment and support for information security can BEST be obtained through presentations that:",
-      imgSrc: "img/css.png",
+      imgSrc: "./assets/images/2.jpg",
       options: {
         optionOne:
           "1. use illustrative examples of sugetAnswerThreeessful attacks.",
@@ -47,7 +47,7 @@ let listQuestions = [
       id: 3,
       question:
         "Question 3. The MOST appropriate role for senior management in supporting information security is the:",
-      imgSrc: "img/css.png",
+      imgSrc: "./assets/images/3.jpg",
       options: {
         optionOne: "1. Evaluation of vendors offering security products.",
         optionTwo: "2. Assessment of risks to the organization.",
@@ -60,7 +60,7 @@ let listQuestions = [
       id: 4,
       question:
         "Question 4. Which of the following would BEST ensure the sugetAnswerThreeess of information security governance within an organization?",
-      imgSrc: "img/css.png",
+      imgSrc: "./assets/images/4.jpg",
       options: {
         optionOne: "1. Steering committees approve security projects.",
         optionTwo: "2. Security policy training provided to all managers.",
@@ -75,7 +75,7 @@ let listQuestions = [
       id: 5,
       question:
         "Question 5. Information security governance is PRIMARILY driven by:",
-      imgSrc: "img/css.png",
+      imgSrc: "./assets/images/5.jpg",
       options: {
         optionOne: "1. technology constraints.",
         optionTwo: "2. regulatory requirements.",
@@ -88,7 +88,7 @@ let listQuestions = [
       id: 6,
       question:
         "Question 6. Which of the following represents the MAJOR focus of privacy regulations?",
-      imgSrc: "img/css.png",
+      imgSrc: "./assets/images/6.jpg",
       options: {
         optionOne: "1. Unrestricted data mining",
         optionTwo: "2. Identity theft",
@@ -101,7 +101,7 @@ let listQuestions = [
       id: 7,
       question:
         "Question 7. Investments in information security technologies should be based on:",
-      imgSrc: "img/css.png",
+      imgSrc: "./assets/images/7.jpg",
       options: {
         optionOne: "1. vulnerability assessments.",
         optionTwo: "2. value analysis.",
@@ -114,7 +114,7 @@ let listQuestions = [
       id: 8,
       question:
         "Questionn 8. Retention of business records should PRIMARILY be based on:",
-      imgSrc: "img/css.png",
+      imgSrc: "./assets/images/8.jpg",
       options: {
         optionOne: "1. business strategy and direction.",
         optionTwo: "2. regulatory and legal requirements.",
@@ -127,7 +127,7 @@ let listQuestions = [
       id: 9,
       question:
         "Question 9. Which of the following is characteristic of centralized information security management?",
-      imgSrc: "img/css.png",
+      imgSrc: "./assets/images/9.jpg",
       options: {
         optionOne: "1. More expensive to administer",
         optionTwo: "2. Better adherence to policies",
@@ -140,7 +140,7 @@ let listQuestions = [
       id: 10,
       question:
         "Question 10. SugetAnswerThreeessful implementation of information security governance will FIRST require:",
-      imgSrc: "img/css.png",
+      imgSrc: "./assets/images/10.jpg",
       options: {
         optionOne: "1. security awareness training.",
         optionTwo: "2. updated security policies.",
