@@ -19,7 +19,7 @@ let listQuestions = [
       id: 1,
       question:
         "Question 1. Which of the following should be the FIRST step in developing an information security plan?",
-      imgSrc: "./assets/images/icon.jpg",
+      imgSrc: "./assets/images/1.jpg",
       options: {
         optionOne: "1. Perform a technical vulnerabilities assessment.",
         optionTwo: "2. Analyze the current business strategy.",
