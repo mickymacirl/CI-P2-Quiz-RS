@@ -4,7 +4,7 @@ ISACA's Certified Information Security Manager (CISM) certification is for those
 
 The quiz consists of ten questions designed to assess an individual's knowledge of the CISM certification.
 
-![Mock Up](./assets/readme/placeholder.jpg)
+![Mock Up](./assets/readme/siterm.jpg)
 
 View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
