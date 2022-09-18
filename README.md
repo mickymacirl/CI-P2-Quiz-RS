@@ -46,7 +46,9 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 - The Game Page contains the main game board, header, and footer and the about section.
 
-![Quiz Question Readme](./assets/readme/placeholder.jpg)
+![Quiz Question Readme](./assets/readme/questionrm.jpg)
+
+![Quiz Question Readme 620](./assets/readme/question620rm.jpg)
 
 ### Features to be Added
 
@@ -58,15 +60,11 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ## Design Choices
 
-### Question ICONS
-
 ### Colors
 
 ### Fonts
 
 ### Logo
-
-### Favicon
 
 ### Wireframes
 
