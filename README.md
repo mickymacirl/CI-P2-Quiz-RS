@@ -62,9 +62,15 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### Colors
 
+- The colors used are used from the CISM logo, being green and seagreen.
+
 ### Fonts
 
 ### Logo
+
+- Logo is a modifed logo from CISM webpage.
+
+![Logo Readme](./assets/readme/icon.jpg)
 
 ### Wireframes
 
