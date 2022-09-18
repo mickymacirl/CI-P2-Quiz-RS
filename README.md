@@ -173,13 +173,13 @@ As a Site Administrator, I want to:
 
 ![Wave Results](./assets/readme/waverm.jpg)
 
-### Wave Testing
+### Lighthouse Testing
 
 - Used *[lighthouse](https://wave.webaim.org/)* to test the pages. All results are within acceptable ranges/.
 
 ![Light House Results Mobile](./assets/readme/lhmobilerm.jpg)
 
-![Light House Results Desktop](./assets/readme/lhdeskerm.jpg)
+![Light House Results Desktop](./assets/readme/lhdeskrm.jpg)
 
 ## Deployment
 
