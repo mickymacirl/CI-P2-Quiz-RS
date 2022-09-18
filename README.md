@@ -12,7 +12,7 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### Header
 
-- The header of the website is responsive on all devices, which remains at the top of the page consistantly.
+- The header of the website is responsive on all devices which remains at the top of the page consistently.
 
 ![Header Readme](./assets/readme/headerrm.jpg)
 
@@ -20,7 +20,7 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### NavBar
 
-- The navbar of the website is responsive on all devices, which changes positon based on the width of the browser on a device.
+- The navbar of the website is responsive on all devices which changes position based on the width of the browser on a device.
 
 ![Navbar Readme](./assets/readme/navrm.jpg)
 
@@ -28,7 +28,7 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### Footer
 
-- The footer of the website is responsive on all devices, which changes postion based on the width of the browser on a device.
+- The footer of the website is responsive on all devices which changes position based on the width of the browser on a device.
 
 ![Footer Readme 320](./assets/readme/footer320rm.jpg)
 
@@ -44,7 +44,7 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### Question Page
 
-- The Game Page contains the main game board, header, and footer and the about section.
+- The Game Page contains the main game board, header, footer and the about section.
 
 ![Quiz Question Readme](./assets/readme/questionrm.jpg)
 
@@ -52,11 +52,11 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### Features to be Added
 
-- In this quiz it would be useful to have a high scores and to remember username when visiting site.
+- In this quiz, it would be useful to have high scores and to remember username when visiting the site.
 
 - This quiz could have additional questions from the CISM or other ISACA certifications.
 
-- Expand the test and have the answers in a seprate json file.
+- Expand the test and have the answers in a separate JSON file.
 
 - Add more percentage calculations so that all scores are covered.
 
@@ -68,11 +68,11 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### Fonts
 
-- The fonts used are the follow: Verdana, Geneva, Tahoma, sans-serif, linked from CSS file.
+- The fonts used are the following: Verdana, Geneva, Tahoma, sans-serif, linked from CSS file.
 
 ### Logo
 
-- Logo is a modifed logo from CISM webpage.
+- The logo is a modified logo from CISM webpage.
 
 ![Logo Readme](./assets/readme/icon.jpg)
 
@@ -88,7 +88,7 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### User Stories
 
-- This game quiz to give the user a straightforward, attractive, understandable, and repeatedly playable experience.
+- This game quiz gives the user a straightforward, attractive, understandable, and repeatedly playable experience.
 
 As a User, I want to:
 
@@ -100,7 +100,7 @@ As a User, I want to:
 
 As a Site Administrator, I want to:
 
-- have a way to add questions easily by creating question ids/
+- have a way to add questions easily by creating question ids.
 - offer the player a straightforward and understandable quiz
 
 ## Technology
@@ -139,23 +139,23 @@ As a Site Administrator, I want to:
 
 ## Testing
 
-- Abnormalities with spacing, and incorrect formatting were all addressed as they surfaced. As a consequence, the code was generally clean and devoid of errors and defects when final testing began.
+- Abnormalities with spacing and incorrect formatting were all addressed as they surfaced. Consequently, the code was generally clean and devoid of errors and defects when final testing began.
 
-- Techniques like console.log() were used to check for flaws as the code was being created. It was possible to verify that everything was operating as it should and that functions like icons being shown at the correct time.
+- Techniques like console.log() were used to check for flaws as the code was being created. It was possible to verify that everything was operating as it should and that functions like icons were being shown at the correct time.
 
-- To enable the player to understand why their decision was incorrect, with the progess bar checked that the right solution was choosen.
+- To enable the player to understand why their decision was incorrect, the progress bar checked that the right solution was chosen.
 
 ### Issues and Bugs
 
-- Bug in the timer, it is not progressing to the next question after 30 seconds. I haven't been able to fix this in the time allowed.
+- Bug in the timer. It is not progressing to the next question after 30 seconds. I haven't been able to fix this in the time allowed.
 
-- Poor spacing on higher resolution screens, will require additional media queries to repair text spacing.
+- Poor spacing on higher resolution screens will require additional media queries to repair text spacing.
 
-- WAVE Validator is showing a submit button labeling issue that I haven't been able to solve in the time allowed.
+- WAVE Validator is showing a submit button labelling issue that I haven't been able to solve in the time allowed.
 
 ### Validator Testing
 
-- Used *[W3C CSS Validator](https://jigsaw.w3.org/css-validator)* to validate the CSS on this stie, no errors are found.
+- Used *[W3C CSS Validator](https://jigsaw.w3.org/css-validator)* to validate the CSS on this site, no errors are found.
 
 ![CSS Results](./assets/readme/cssvalrm.jpg)
 
@@ -163,13 +163,13 @@ As a Site Administrator, I want to:
 
 ![HTML Results](./assets/readme/htmlvalrm.jpg)
 
- Used *[Javascript Validator](https://jshint.com/)* to validate the Javascript on this stie, with one error saying that checkAnswer is unused. checkAnswer is used in the quiz.html file to check the quiz players answer so is not used within the javascript file.
+ Used *[Javascript Validator](https://jshint.com/)* to validate the Javascript on this stie, with one error saying that checkAnswer is unused. checkAnswer is used in the quiz.html file to check the quiz player's answer so it is not used within the javascript file.
 
 ![Javascript Results](./assets/readme/jsvalrm.jpg)
 
 ### Wave Testing
 
-- Used *[WAVE Validator](https://wave.webaim.org/)* to test the pages. The index page is showing an unlabeled sumbit button error, was not able to fix this due to lack of time.
+- Used *[WAVE Validator](https://wave.webaim.org/)* to test the pages. The index page is showing an unlabeled submit button error, I was not able to fix this due to lack of time.
 
 ![Wave Results](./assets/readme/waverm.jpg)
 
@@ -243,14 +243,6 @@ Below are the steps required:
 
 - Used syntax from *[Markdown Guide](https://www.markdownguide.org/basic-syntax/)* for reference.
 
-### Markdown TOC Generator
-
-- Used Ecotrust Canada's *[Markdown TOC Generator](https://ecotrust-canada.github.io/markdown-toc/)* to build Readme TOC.
-
-### Meta Tags
-
-- Used SEO Timers *[Meta Tag Generator](https://www.seoptimer.com/meta-tag-generator)* to generate HTML meta-tags.
-
 ### CISM Questions
 
 - Used CISM Questions from *[Certification-Questions.com](https://www.certification-questions.com/pdf-download/isaca/cism-pdf.pdf)* to build the 10 questions.
@@ -266,10 +258,6 @@ Below are the steps required:
 ### JavaScript Basics
 
 - JavaScript Basics from *[JsChallenger.com](https://www.jschallenger.com/javascript-fundamentals/javascript-basics)*.
-
-### Favicon Generator
-
-- Used *[Favicon & App Icon Generator](https://www.favicon-generator.org/)* to generate the favicon and *[W3 Schools HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)* for the HTML.
 
 ### Mozilla.org Reference
 
