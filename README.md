@@ -175,7 +175,7 @@ As a Site Administrator, I want to:
 
 ### Lighthouse Testing
 
-- Used *[lighthouse](https://wave.webaim.org/)* to test the pages. All results are within acceptable ranges/.
+- Used *[lighthouse](https://wave.webaim.org/)* to test the pages. All results are within acceptable ranges.
 
 ![Light House Results Mobile](./assets/readme/lhmobilerm.jpg)
 
