@@ -4,15 +4,17 @@
 
 /* HTML Page Styling */
 html {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
+
 /* Menu Page Styling */
 .menu {
     float: left;
     width: 20%;
     text-align: center;
 }
+
 /* Menu Page A Styling */
 .menu a {
     background-color: seagreen;
@@ -23,16 +25,19 @@ html {
     font-size: 0.67rem;
     color: black;
 }
+
 /* A Menu Hover Over Styling */
 a:hover {
     background-color: #6cb43c;
 }
+
 /* Main Cell Styling */
 .main {
     float: left;
     width: 60%;
     padding: 0 20px;
 }
+
 /* Right Cell Styling */
 .right {
     background-color: seagreen;
@@ -42,6 +47,7 @@ a:hover {
     margin-top: 5px;
     text-align: center;
 }
+
 /* Text Styling */
 .text {
     display: inline-block;
@@ -53,6 +59,7 @@ a:hover {
     color: black;
     padding: 5px;
 }
+
 /* h1 header Styling */
 h1 {
     display: block;
@@ -63,6 +70,7 @@ h1 {
     margin-inline-end: 0px;
     color: black;
 }
+
 /* h2 header Styling */
 h2 {
     display: block;
@@ -73,6 +81,7 @@ h2 {
     margin-inline-end: 0px;
     color: black;
 }
+
 /* Timer Styling */
 #timer {
     text-align: left;
@@ -80,21 +89,25 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 /* Start Quiz Styling */
 #start {
     border-radius: 3%;
     text-align: center;
 }
+
 /* Start Quiz Hover Styling */
 #start:hover {
     background-color: #6cb43c;
     color: grey;
 }
+
 /* Progess Bar Styling */
 #progress {
     width: 100%;
     text-align: left;
 }
+
 /* Progess Bar Styling */
 .progress {
     width: 20px;
@@ -105,6 +118,7 @@ h2 {
     margin-left: 1px;
     margin-right: 1px;
 }
+
 /* Answer Bar Styling */
 #choices {
     padding: 5px;
@@ -113,6 +127,7 @@ h2 {
     height: 20vh;
     font-size: 15px;
 }
+
 /* Timer Styling */
 #questionTimer {
     height: 10px;
@@ -120,6 +135,7 @@ h2 {
     background-color: #6cb43c;
     margin-top: 1px;
 }
+
 /* Quiz Container Styling */
 #container {
     justify-content: space-around;
@@ -127,6 +143,7 @@ h2 {
     padding: 5px;
     background-color: grey;
 }
+
 /* Score Container Styling */
 #scoreContainer {
     background-color: seagreen;
@@ -136,11 +153,13 @@ h2 {
     padding: 20px;
 
 }
+
 /* Score IMG Styling */
 #scoreContainer img {
     justify-content: space-around;
     background-color: #6cb43c;
 }
+
 /* Score Container p Styling */
 #scoreContainer p {
     font-size: 1.5em;
