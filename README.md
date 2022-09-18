@@ -44,7 +44,7 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### Question Page
 
-- The Game Page contains the main game board, header, footer and the about section.
+- The Question Page contains the main quiz board, header, footer and the about section.
 
 ![Quiz Question Readme](./assets/readme/questionrm.jpg)
 
@@ -88,7 +88,7 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### User Stories
 
-- This game quiz gives the user a straightforward, attractive, understandable, and repeatedly playable experience.
+- This quiz gives the user a straightforward, attractive, understandable, and repeatedly playable experience.
 
 As a User, I want to:
 
