@@ -84,14 +84,22 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ![Quiz700 Wireframe](./assets/readme/quizwfrm700.jpg)
 
-## User Goals
+### User Stories
 
-- Visually attractive website.
-- It is easy to navigate the website.
+- This game quiz to give the user a straightforward, attractive, understandable, and repeatedly playable experience.
 
-## User Stories
+As a User, I want to:
 
-## Site Owner Goals
+- answer questions clearly across different devices
+- understand how to play the quiz
+- know what score I have gotten
+- know what question I am on
+- know the current timer
+
+As a Site Administrator, I want to:
+
+- have a way to add questions easily by creating question ids/
+- offer the player a straightforward and understandable quiz
 
 ## Technology
 
