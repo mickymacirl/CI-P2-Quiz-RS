@@ -35,7 +35,7 @@ let listQuestions = [
       imgSrc: "./assets/images/2.jpg",
       options: {
         optionOne:
-          "1. use illustrative examples of sugetAnswerThreeessful attacks.",
+          "1. use illustrative examples of successful attacks.",
         optionTwo: "2. explain the technical risks to the organization.",
         optionThree:
           "3. evaluate the organization against best security practices.",
@@ -59,7 +59,7 @@ let listQuestions = [
     {
       id: 4,
       question:
-        "Question 4. Which of the following would BEST ensure the sugetAnswerThreeess of information security governance within an organization?",
+        "Question 4. Which of the following would BEST ensure the success of information security governance within an organization?",
       imgSrc: "./assets/images/4.jpg",
       options: {
         optionOne: "1. Steering committees approve security projects.",
@@ -139,7 +139,7 @@ let listQuestions = [
     {
       id: 10,
       question:
-        "Question 10. SugetAnswerThreeessful implementation of information security governance will FIRST require:",
+        "Question 10. Successful implementation of information security governance will FIRST require:",
       imgSrc: "./assets/images/10.jpg",
       options: {
         optionOne: "1. security awareness training.",
