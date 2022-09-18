@@ -131,6 +131,18 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ## Testing
 
+- Abnormalities with spacing, and incorrect formatting were all addressed as they surfaced. As a consequence, the code was generally clean and devoid of errors and defects when final testing began.
+
+- Techniques like console.log() were used to check for flaws as the code was being created. It was possible to verify that everything was operating as it should and that functions like icons being shown at the correct time.
+
+- To enable the player to understand why their decision was incorrect, with the progess bar checked that the right solution was choosen.
+
+### Issues and Bugs
+
+- Bug in the timer, it is not progressing to the next question after 30 seconds. I haven't been able to fix this in the time allowed.
+
+- Poor spacing on higher resolution screens, will require additional media queries to repair text spacing.
+
 ### Validator Testing
 
 - Used *[W3C CSS Validator](https://jigsaw.w3.org/css-validator)* to validate the CSS on this stie, no errors are found.
