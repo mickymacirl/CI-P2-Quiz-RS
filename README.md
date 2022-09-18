@@ -288,3 +288,5 @@ Below are the steps required:
 ## Content
 
 - Logo from *[ISACA.org](https://www.isaca.org/credentialing/cism)* website and resized using *[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)*.
+
+- Icons from *[macovector_official on Freepik](https://www.freepik.com/free-vector/hacker-icons-flat-set_4376519.htm#query=cyber%20security%20icon&position=25&from_view=keyword") on Freepik website.
