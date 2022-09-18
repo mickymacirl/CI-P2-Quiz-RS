@@ -52,9 +52,9 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### Features to be Added
 
-- In this game it would be useful to have a high scores and to remember username when visiting site.
+- In this quiz it would be useful to have a high scores and to remember username when visiting site.
 
-- This game could have additional questions from the CISM or other ISACA certifications.
+- This quiz could have additional questions from the CISM or other ISACA certifications.
 
 - Expand the test and have the answers in a seprate json file.
 
