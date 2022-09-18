@@ -143,6 +143,8 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 - Poor spacing on higher resolution screens, will require additional media queries to repair text spacing.
 
+- WAVE Validator is showing a submit button labeling issue that I haven't been able to solve in the time allowed.
+
 ### Validator Testing
 
 - Used *[W3C CSS Validator](https://jigsaw.w3.org/css-validator)* to validate the CSS on this stie, no errors are found.
@@ -159,7 +161,7 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 ### Wave Testing
 
-- Used Wave to test the pages. The index page is showing an unlabeled sumbit button error, was not able to fix this due to lack of time.
+- Used *[WAVE Validator](https://wave.webaim.org/)* to test the pages. The index page is showing an unlabeled sumbit button error, was not able to fix this due to lack of time.
 
 ![Wave Results](./assets/readme/waverm.jpg)
 
