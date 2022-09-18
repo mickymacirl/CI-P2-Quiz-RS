@@ -58,6 +58,8 @@ View the live site: *[here](https://mickymacirl.github.io/CI-P2-Quiz-RS/)*
 
 - Expand the test and have the answers in a seprate json file.
 
+- Add more percentage calculations so that all scores are covered.
+
 ## Design Choices
 
 ### Colors
